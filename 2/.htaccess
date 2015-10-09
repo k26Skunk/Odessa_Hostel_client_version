@@ -1,0 +1,4 @@
+AddDefaultCharset utf-8
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/2/$
+RewriteRule ^.*$ http://life-hostel.od.ua [R=301,L]
